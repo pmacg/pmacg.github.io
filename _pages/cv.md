@@ -17,7 +17,7 @@ Education
 Work experience
 ======
 * Software Engineer, Metaswitch Networks, 2015-2019
-* Teaching Support, Univertisy of Edinburgh, 2019-Present
+* Teaching Support, University of Edinburgh, 2019-Present
   
 <!-- Skills
 ======
