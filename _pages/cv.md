@@ -19,31 +19,9 @@ Work experience
 * Software Engineer, Metaswitch Networks, 2015-2019
 * Teaching Support, University of Edinburgh, 2019-Present
   
-<!-- Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3 -->
-
-<!-- Publications -->
-<!-- ====== -->
-  <!-- <ul>{% for post in site.publications %} -->
-  <!-- {% endfor %}</ul> -->
-  
-<!-- Talks -->
-<!-- ====== -->
-  <!-- <ul>{% for post in site.talks %} -->
-  <!-- {% endfor %}</ul> -->
-  
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+- [Algorithmic Foundations of Data Science](https://www.learn.ed.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_72136_1&content_id=_3836151_1), 2019, TA
+- [Algorithms and Data Structures](https://www.inf.ed.ac.uk/teaching/courses/ads/), 2020, Tutor
+- [Introduction to Algorithms and Data Structures](http://www.drps.ed.ac.uk/20-21/dpt/cxinfr08026.htm), 2021, Marker
   
-<!-- Service and leadership -->
-<!-- ====== -->
-<!-- * Currently signed in to 43 different slack teams -->
