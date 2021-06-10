@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter "@macgregor_pr"
+  username               : # &twitter "@macgregor_pr"
 facebook:
   username               :
   app_id                 :
@@ -110,7 +110,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "macgregor.pr"
+  twitter          : # "macgregor.pr"
   vine             :
   weibo            :
   xing             :
