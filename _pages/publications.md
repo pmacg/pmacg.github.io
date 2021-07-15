@@ -11,4 +11,4 @@ author_profile: true
 
 {% include base_path %}
 
-Local Algorithms for Finding Densely Connected Clusters | With He Sun | ICML'21 (Long Talk, acceptance rate 3%) | [arXiv version](https://arxiv.org/abs/2106.05245) | [code](https://github.com/pmacg/local-densely-connected-clusters)
+Local Algorithms for Finding Densely Connected Clusters | With He Sun | ICML'21 Oral, acceptance rate 3% | [arXiv version](https://arxiv.org/abs/2106.05245) | [conference version](http://proceedings.mlr.press/v139/macgregor21a.html) | [code](https://github.com/pmacg/local-densely-connected-clusters)
