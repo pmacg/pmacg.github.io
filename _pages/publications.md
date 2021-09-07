@@ -19,7 +19,7 @@ author_profile: true
 
 ### Local Algorithms for Finding Densely Connected Clusters (ICML'21 Oral)
 Peter Macgregor and He Sun  
-[arXiv version](https://arxiv.org/abs/2106.05245) \| [conference version](http://proceedings.mlr.press/v139/macgregor21a.html) \| [code](https://github.com/pmacg/local-densely-connected-clusters)
+[arXiv version](https://arxiv.org/abs/2106.05245) \| [conference version](http://proceedings.mlr.press/v139/macgregor21a.html) \| [talk](https://slideslive.com/38958689/local-algorithms-for-finding-densely-connected-clusters) \| [code](https://github.com/pmacg/local-densely-connected-clusters)
 
 </div>
 </div>
