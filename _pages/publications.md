@@ -2,6 +2,20 @@
 
 <div class="row">
 <div class="col-md-4" markdown=1>
+![NeurIPS21 Image](/images/publications/neurips21.png)
+</div>
+<div class="col-md-8" markdown=1>
+
+**Finding Bipartite Components in Hypergraphs (NeurIPS'21)**
+Peter Macgregor and He Sun  
+*links coming soon*
+
+</div>
+</div>
+
+
+<div class="row">
+<div class="col-md-4" markdown=1>
 ![ICML21 Image](/images/publications/icml21.png)
 </div>
 <div class="col-md-8" markdown=1>
