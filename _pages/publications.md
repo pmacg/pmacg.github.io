@@ -8,7 +8,7 @@
 
 **Finding Bipartite Components in Hypergraphs (NeurIPS'21)**
 Peter Macgregor and He Sun  
-*links coming soon*
+[conference version](https://proceedings.neurips.cc/paper/2021/hash/41bacf567aefc61b3076c74d8925128f-Abstract.html) \| [code](https://github.com/pmacg/hypergraph-bipartite-components)
 
 </div>
 </div>
