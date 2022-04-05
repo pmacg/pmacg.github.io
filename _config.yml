@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Peter Macgregor"
 title_separator          : "-"
-name                     : &name "Peter macgregor"
+name                     : &name "Peter Macgregor"
 description              : &description "PhD Candidate at the University of Edinburgh."
 url                      : https://pmacg.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
