@@ -161,3 +161,9 @@ body {
     width: 700px;
   }
 }
+
+.fa-scholar {
+  content: url('images/google-scholar.svg');
+  height: 1em;
+  width: auto;
+}
