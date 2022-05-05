@@ -265,7 +265,6 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial;
   font-size: 14px;
   line-height: 1.428571429;
   color: #839496;
@@ -354,7 +353,6 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", "Arial Narrow", Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: #93a1a1;
@@ -4252,7 +4250,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .label {
   display: inline;
-  padding: .2em .6em .3em;
+  padding: .3em .6em .3em;
   font-size: 75%;
   font-weight: bold;
   line-height: 1;
