@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,8 +19,8 @@
 
     <!-- Add font for social media icons -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-          type="text/css">
-    <link rel="stylesheet" href="academicons-1.9.2/css/academicons.min.css"/>
+        type="text/css">
+    <link rel="stylesheet" href="academicons-1.9.2/css/academicons.min.css" />
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <!--    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">-->
@@ -37,161 +38,175 @@
 
 <body>
 
-<div class="site-wrapper">
-    <div class="site-wrapper-inner">
-        <div class="cover-container">
-            <nav class="navbar navbar-inverse navbar-fixed-top">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+    <div class="site-wrapper">
+        <div class="site-wrapper-inner">
+            <div class="cover-container">
+                <nav class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                                 data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">Peter Macgregor</a>
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">Peter Macgregor</a>
+                        </div>
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a href="index.html">Home</a></li>
+                                <li class="active"><a href="software.html">Software</a></li>
+                                <li><a href="datasets.html">Datasets</a></li>
+                                <li><a href="fun.html">Fun</a></li>
+                            </ul>
+                        </div><!--/.nav-collapse -->
                     </div>
-                    <div id="navbar" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li><a href="index.html">Home</a></li>
-                            <li class="active"><a href="software.html">Software</a></li>
-                            <li><a href="datasets.html">Datasets</a></li>
-                        </ul>
-                    </div><!--/.nav-collapse -->
-                </div>
-            </nav>
-            <div class="container" style="padding-top: 50px">
-                <div class="row">
-                    <div class="col-md-4">
-                        <!-- Make some space -->
-                        <h3></h3>
-                        <div class="text-center">
-                            <img src="images/profile.jpeg" class="img-circle" style="max-width:150px; width:100%"
-                                 alt="A picture of me in the snow.">
+                </nav>
+                <div class="container" style="padding-top: 50px">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <!-- Make some space -->
+                            <h3></h3>
+                            <div class="text-center">
+                                <img src="images/profile.jpeg" class="img-circle" style="max-width:150px; width:100%"
+                                    alt="A picture of me in the snow.">
+                            </div>
+                            <h3>Peter Macgregor</h3>
+                            <p>Research Associate at the University of Edinburgh</p>
+                            <div class="">
+                                <a class="social-icon" data-tooltip="peter.macgregor@ed.ac.uk"
+                                    href="mailto:peter.macgregor@ed.ac.uk">
+                                    <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+                                </a>
+                                <span>&nbsp;</span>
+                                <a class="social-icon" data-tooltip="GitHub" href="https://github.com/pmacg">
+                                    <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                                </a>
+                                <span>&nbsp;</span>
+                                <a class="social-icon" data-tooltip="Google Scholar"
+                                    href="https://scholar.google.co.uk/citations?user=t72xITMAAAAJ&hl=en">
+                                    <i class="ai ai-google-scholar ai-2x" aria-hidden="true"></i>
+                                </a>
+                                <span>&nbsp;</span>
+                                <a class="social-icon" data-tooltip="DBLP" href="https://dblp.org/pid/294/8868.html">
+                                    <i class="ai ai-dblp ai-2x" aria-hidden="true"></i>
+                                </a>
+                            </div>
                         </div>
-                        <h3>Peter Macgregor</h3>
-                        <p>Research Associate at the University of Edinburgh</p>
-                        <div class="">
-                            <a class="social-icon" data-tooltip="peter.macgregor@ed.ac.uk"
-                               href="mailto:peter.macgregor@ed.ac.uk">
-                                <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-                            </a>
-                            <span>&nbsp;</span>
-                            <a class="social-icon" data-tooltip="GitHub" href="https://github.com/pmacg">
-                                <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-                            </a>
-                            <span>&nbsp;</span>
-                            <a class="social-icon" data-tooltip="Google Scholar"
-                               href="https://scholar.google.co.uk/citations?user=t72xITMAAAAJ&hl=en">
-                                <i class="ai ai-google-scholar ai-2x" aria-hidden="true"></i>
-                            </a>
-                            <span>&nbsp;</span>
-                            <a class="social-icon" data-tooltip="DBLP" href="https://dblp.org/pid/294/8868.html">
-                                <i class="ai ai-dblp ai-2x" aria-hidden="true"></i>
-                            </a>
+                        <div class="col-md-8">
+                            <!--                        <div class="row">-->
+                            <h2>Software</h2>
+                            <h3>STAG: Spectral Toolkit of Algorithms for Graphs</h3>
+                            <div class="row" style="padding-bottom: 15px; padding-top: 15px">
+                                <div class="col-md-10">
+                                    <p>
+                                        STAG is an open-source C++ and Python library for efficient spectral graph
+                                        algorithms which I am developing
+                                        with <a href="https://homepages.inf.ed.ac.uk/hsun4/index.html">He Sun</a>.
+                                        The project is under active development and the <a
+                                            href="https://staglibrary.io/">project website</a> will be kept up to date
+                                        with the latest status.
+                                        To get started with using STAG, see the documentation.
+                                    </p>
+                                    <ul>
+                                        <li><a href="https://staglibrary.io/docs/cpp/index.html">STAG C++</a></li>
+                                        <li><a href="https://staglibrary.io/docs/python/">STAG Python</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-2" align="center">
+                                    <img src="images/stag.png" style="width:100%" />
+                                </div>
+                            </div>
+
+                            <h3>Local Clustering</h3>
+                            <p>
+                                The STAG library provides an easy-to-use implementation of the ACL local graph clustering algorithm.
+                                In our paper "Local Algorithms for Finding Densely Connected Clusters", we introduce a variant of the ACL algorithm
+                                which finds clusters in a graph with many edges between them.
+                            </p>
+                            <p>
+                                The <a href="https://staglibrary.io/clustering-demo.html">web-app here</a> 
+                                is implemented with STAG and gives an interactive demonstration of our algorithm on the military disputes dataset.
+                                The source code for the demo is available <a href="https://github.com/pmacg/mid-clustering">here</a>.
+                            </p>
+                            <div class="row" style="padding-bottom: 15px; padding-top: 15px">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-8" align="center">
+                                    <a href="https://staglibrary.io/clustering-demo.html"><img
+                                            src="images/conflict_webapp.png" style="width:100%" /></a>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+
+                            <h3>Image Segmentation with Spectral Clustering</h3>
+                            <p>
+                                Spectral clustering is a popular technique for image segmentation.
+                                In our paper "A Tighter Analysis of Spectral Clustering, and Beyond", we discovered
+                                that
+                                using fewer eigenvectors for image segmentation with spectral clustering often gives
+                                better
+                                results.
+                                The python script available on <a
+                                    href="https://github.com/pmacg/spectral-image-segmentation">GitHub</a> gives a
+                                high-level API for image segmentation with
+                                spectral clustering.
+                            </p>
+
+                            <h4>Example Usage</h4>
+                            <pre><code>python segment.py pic.jpeg picSegmented.jpeg 40</code></pre>
+                            <div class="row" style="padding-bottom: 15px">
+                                <div class="col-md-6" align="center">
+                                    <img src="images/snow.jpeg" style="max-width:170px; width:100%" />
+                                </div>
+
+                                <div class="col-md-6" align="center">
+                                    <img src="images/snowSegments.jpg" style="max-width:170px; width:100%" />
+                                </div>
+                            </div>
+
+
+                            <div class="row" style="padding-top: 15px">
+                                <div class="col-md-6" align="center">
+                                    <img src="images/saltire.jpg" style="max-width:200px; width:100%" />
+                                </div>
+
+                                <div class="col-md-6" align="center">
+                                    <img src="images/saltireSegments.jpg" style="max-width:200px; width:100%" />
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-8">
-                        <!--                        <div class="row">-->
-                        <h2>Software</h2>
-                        <h3>STAG: Spectral Toolkit of Algorithms for Graphs</h3>
-                        <p>
-                            STAG is an open-source C++ library for efficient spectral graph algorithms.
-                            I am developing this library with <a href="https://homepages.inf.ed.ac.uk/hsun4/index.html">He Sun</a> as part of his
-                            fellowship titled "Efficient Spectral Algorithms for Massive and Dynamic Graphs",
-                            which is funded by the UK Engineering and Physical Sciences Research Council (EPSRC, EP/T00729X/1).
-                        </p>
-                        <p>
-                            The project is under active development and the <a href="https://staglibrary.io/">project website</a> will be kept up to date with the latest status.
-                            For now, you can find the source code in the following GitHub repositories.
-                        </p>
-                        <ul>
-                            <li><a href="https://github.com/staglibrary/stag">STAG C++ Library</a></li>
-                            <li><a href="https://github.com/staglibrary/stagpy">Python STAG Module</a></li>
-                        </ul>
 
-                        <h3>Local Clustering for Conflict Data</h3>
-                        <p>
-                            There is a <a href="https://staglibrary.io/clustering-demo.html">web-app here</a> which demonstrates our local clustering algorithm for finding
-                            densely connected clusters.
-                            It allows you to interactively explore the clusters returned on the global conflict dataset for different time periods.
-                        </p>
-                        <div class="row" style="padding-bottom: 15px; padding-top: 15px">
-                            <div class="col-md-2"></div>
-                            <div class="col-md-8" align="center">
-                                <a href="https://staglibrary.io/clustering-demo.html"><img src="images/conflict_webapp.png" style="width:100%"/></a>
-                            </div>
-                            <div class="col-md-2"></div>
-                        </div>
+                    <hr>
 
-                        <h3>Image Segmentation with Spectral Clustering</h3>
-                        <p>
-                            Spectral clustering is a popular technique for image segmentation.
-                            In our paper "A Tighter Analysis of Spectral Clustering, and Beyond", we discovered
-                            that
-                            using fewer eigenvectors for image segmentation with spectral clustering often gives
-                            better
-                            results.
-                            This python script available on <a
-                                href="https://github.com/pmacg/spectral-image-segmentation">GitHub</a> gives a
-                            high-level API for image segmentation with
-                            spectral clustering, using this new discovery.
-                        </p>
-
-                        <h4>Examples</h4>
-                        <pre><code>python segment.py pic.jpeg picSegmented.jpeg 40</code></pre>
-                        <div class="row" style="padding-bottom: 15px">
-                            <div class="col-md-6" align="center">
-                                <img src="images/snow.jpeg" style="max-width:170px; width:100%"/>
-                            </div>
-
-                            <div class="col-md-6" align="center">
-                                <img src="images/snowSegments.jpg" style="max-width:170px; width:100%"/>
-                            </div>
-                        </div>
-
-
-                        <div class="row" style="padding-top: 15px">
-                            <div class="col-md-6" align="center">
-                                <img src="images/saltire.jpg" style="max-width:200px; width:100%"/>
-                            </div>
-
-                            <div class="col-md-6" align="center">
-                                <img src="images/saltireSegments.jpg" style="max-width:200px; width:100%"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <hr>
-
-                <footer>
-                    <p>&copy; 2023 Peter Macgregor</p>
-                </footer>
-            </div> <!-- /container -->
+                    <footer>
+                        <p>&copy; 2023 Peter Macgregor</p>
+                    </footer>
+                </div> <!-- /container -->
+            </div>
         </div>
     </div>
-</div>
 
-<!-- Bootstrap core JavaScript
+    <!-- Bootstrap core JavaScript
 ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
         integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
         crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-<script src="bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<!--    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CD78TT8HKC"></script>
-<script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-CD78TT8HKC', { 'anonymize_ip': false});
-</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CD78TT8HKC"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-CD78TT8HKC', { 'anonymize_ip': false });
+    </script>
 </body>
+
 </html>
