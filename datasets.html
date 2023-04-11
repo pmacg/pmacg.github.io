@@ -28,6 +28,9 @@
     <!--    <link href="cover.css" rel="stylesheet">-->
     <link href="bootstrap-solarized-dark.css" rel="stylesheet">
 
+    <!-- Custom CSS -->
+    <link href="custom.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
@@ -68,9 +71,58 @@
                     <div class="col-md-8">
                         <!--                        <div class="row">-->
                         <h2>Datasets</h2>
-                        <p>This page contains links to several datasets which I have used in my research.</p>
+                        <p>This page contains links to several datasets which I have used in my research,
+                            along with code for processing the data.
+                        </p>
+                        <h3>Page Index</h3>
+                        <h4>Graph Datasets</h4>
+                            <ul>
+                                <li><a href="#wikipedia">Wikipedia Network</a></li>
+                                <li><a href="#mid">Militarized Interstate Disputes Data</a></li>
+                                <li><a href="#usmig">US Migration Dataset</a></li>
+                            </ul>
+                        <h4>Hypergraph Datasets</h4>
+                            <ul>
+                                <li><a href="#dblp">DBLP Co-authorship Network</a></li>
+                            </ul>
+                        <h4>Image Datasets</h4>
+                            <ul>
+                                <li><a href="#bsds">BSDS Image Segmentation Dataset</a></li>
+                                <li><a href="#mnist">MNIST Digits Dataset</a></li>
+                                <li><a href="#mnist">USPS Digits Dataset</a></li>
+                            </ul>
+                        <h4>Other</h4>
+                            <ul>
+                                <li><a href="#sbm">Stochastic Block Models</a></li>
+                                <li><a href="#other">Other Dataset Collections</a></li>
+                            </ul>
+                        <hr>
+                        
+                        <a class="anchor" id="wikipedia"></a>
+                        <h3>Wikipedia Network</h3>
+                        <p>
+                            The wikipedia network dataset provides a large graph of the hyperlinks
+                            between wikipedia articles.
+                            In is compiled and released as part of the
+                            <a href="http://snap.stanford.edu/data/index.html">Stanford Large Network Dataset Collection</a>.
+                        </p>
+                        <ul>
+                            <li><a href="http://snap.stanford.edu/data/wiki-topcats.html">Wikipedia Dataset</a></li>
+                            <li><a href="https://github.com/staglibrary/local-clustering-case-study">Code</a> for processing the data with STAG.</li>
+                        </ul>
+                        <p>
+                            This dataset was used in the STAG technical report.
+                        </p>
+                        <ul>
+                            <li>
+                                Peter Macgregor and He Sun.
+                                Spectral toolkit of algorithms for graphs: Technical report (1), 2023.
+                                arXiv:2304.03170.
+                            </li>
+                        </ul>
                 <hr>
 
+                        <a class="anchor" id="dblp"></a>
                         <h3>DBLP Co-authorship Data</h3>
                         <p>
                             The DBLP computer science bibliography data is a useful source of network data.
@@ -89,6 +141,7 @@
                         </ul>
                 <hr>
 
+                        <a class="anchor" id="bsds"></a>
                         <h3>Berkely Segmentation Dataset (BSDS)</h3>
                         <p>
                             A dataset of images with ground-truth segmentations.
@@ -107,6 +160,7 @@
                         </ul>
                 <hr>
 
+                        <a class="anchor" id="mid"></a>
                         <h3>Militarized Interstate Disputes</h3>
                         <p>
                             A dataset containing all military disputes between 1816-2014.
@@ -124,6 +178,7 @@
                         </ul>
                 <hr>
 
+                        <a class="anchor" id="usmig"></a>
                         <h3>US Migration Dataset</h3>
                         <p>
                             The 2000 US census included data about migration within the United States.
@@ -141,6 +196,7 @@
                         </ul>
 
                 <hr>
+                        <a class="anchor" id="mnist"></a>
                         <h3>MNIST and USPS Datasets</h3>
                         <p>
                             Well-known datasets of hand-written digits.
@@ -161,6 +217,7 @@
 
                 <hr>
 
+                        <a class="anchor" id="sbm"></a>
                         <h3>Stochastic Block Models</h3>
                         <p>
                             It is common to evaluate graph clustering algorithms on synthetic datasets from the Stochastic block model.
@@ -168,6 +225,7 @@
                         </p>
                 <hr>
 
+                        <a class="anchor" id="other"></a>
                         <h3>Other Dataset Collections</h3>
                         <p>
                             Several others maintain lists of datasets. For example, I have found the following pages useful.
