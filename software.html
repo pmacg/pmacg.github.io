@@ -65,35 +65,7 @@
                 </nav>
                 <div class="container" style="padding-top: 50px">
                     <div class="row">
-                        <div class="col-md-4">
-                            <!-- Make some space -->
-                            <h3></h3>
-                            <div class="text-center">
-                                <img src="images/profile.jpeg" class="img-circle" style="max-width:150px; width:100%"
-                                    alt="A picture of me in the snow.">
-                            </div>
-                            <h3>Peter Macgregor</h3>
-                            <p>Research Associate at the University of Edinburgh</p>
-                            <div class="">
-                                <a class="social-icon" data-tooltip="peter.macgregor@ed.ac.uk"
-                                    href="mailto:peter.macgregor@ed.ac.uk">
-                                    <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-                                </a>
-                                <span>&nbsp;</span>
-                                <a class="social-icon" data-tooltip="GitHub" href="https://github.com/pmacg">
-                                    <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-                                </a>
-                                <span>&nbsp;</span>
-                                <a class="social-icon" data-tooltip="Google Scholar"
-                                    href="https://scholar.google.co.uk/citations?user=t72xITMAAAAJ&hl=en">
-                                    <i class="ai ai-google-scholar ai-2x" aria-hidden="true"></i>
-                                </a>
-                                <span>&nbsp;</span>
-                                <a class="social-icon" data-tooltip="DBLP" href="https://dblp.org/pid/294/8868.html">
-                                    <i class="ai ai-dblp ai-2x" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </div>
+                        <div w3-include-html="sidebar.html"></div>
                         <div class="col-md-8">
                             <!--                        <div class="row">-->
                             <h2>Software</h2>
@@ -188,7 +160,10 @@
         </div>
     </div>
 
-    <!-- Bootstrap core JavaScript
+<!-- Javascript to include html -->
+<script src="include.js"></script>
+
+<!-- Bootstrap core JavaScript
 ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"
