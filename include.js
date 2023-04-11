@@ -1,10 +1,10 @@
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
-  /* Loop through a collection of all HTML elements: */
-  z = document.getElementsByTagName("*");
+  /* Loop through all HTML elements with the w3-include-html attribute */
+  z = $('[w3-include-html]');
   for (i = 0; i < z.length; i++) {
     elmnt = z[i];
-    /*search for elements with a certain atrribute:*/
+    /* Get the file from the attribute */
     file = elmnt.getAttribute("w3-include-html");
     if (file) {
       /* Make an HTTP request using the attribute value as the file name: */
