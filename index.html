@@ -28,6 +28,9 @@
     <!--    <link href="cover.css" rel="stylesheet">-->
     <link href="bootstrap-solarized-dark.css" rel="stylesheet">
 
+    <!--Custom styles-->
+    <link href="custom.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
@@ -65,7 +68,7 @@
             <div class="container" style="padding-top: 50px">
                 <div class="row">
                     <div w3-include-html="sidebar.html"></div>
-                    <div class="col-md-8">
+                    <div class="col-md-9">
                         <div class="row">
                         <h2>Summary</h2>
                         <p>I'm a Research Associate in the <a href="https://web.inf.ed.ac.uk/lfcs">Laboratory for the
@@ -89,35 +92,25 @@
 
                         <h2>Publications</h2>
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-2">
                                 <h4>
                                     <span class="label label-primary">NeurIPS 2023</span>
                                     <span class="label label-success">Spotlight</span>
                                 </h4>
                             </div>
-                            <div class="col-md-9">
+                            <div class="col-md-7">
                                 <h4 class="papertitle">Fast Approximation of Similarity Graphs with Kernel Density Estimation</h4>
                                 <p>Peter Macgregor and He Sun</p>
-                                <p style="color: grey">Links coming soon...</p>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
                                 <hr style="width: 100%;"/>
-                            </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-2">
                                 <h4><span class="label label-primary">NeurIPS 2023</span></h4>
                             </div>
-                            <div class="col-md-9">
+                            <div class="col-md-7">
                                 <h4 class="papertitle">Fast and Simple Spectral Clustering in Theory and Practice</h4>
                                 <p>Peter Macgregor</p>
-                                <a href="http://arxiv.org/abs/2310.10939" class="btn btn-info btn-sm">arXiv
-                                    version</a>
-                                <a href="https://github.com/pmacg/fast-spectral-clustering"
-                                   class="btn btn-warning btn-sm">code</a>
-                                <button class="btn btn-default" onclick="bibtex_click(event.target)">bibtex</button>
                             <pre class="bibtex" style="display:none"><code>@inproceedings{macgregorFastSpectralClustering2023,
     title = {Fast and Simple Spectral Clustering in Theory and Practice},
     booktitle = {36th {{Advances}} in {{Neural Information Processing Systems}} ({{NeurIPS}}'23)},
@@ -125,22 +118,23 @@
     year = {2023}
 }</code></pre>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <hr style="width: 100%;"/>
-                            </div>
-                        </div>
-                        <div class="row">
                             <div class="col-md-3">
+                                <h4>
+                                <a href="http://arxiv.org/abs/2310.10939" class="label label-info">arXiv</a>
+                                <a href="https://github.com/pmacg/fast-spectral-clustering"
+                                   class="label label-warning">code</a>
+                                <button class="label label-default" onclick="bibtex_click(event.target)">bibtex</button>
+                                </h4>
+                            </div>
+                                <hr style="width: 100%;"/>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2">
                                 <h4><span class="label label-primary">ISAAC 2023</span></h4>
                             </div>
-                            <div class="col-md-9">
+                            <div class="col-md-7">
                                 <h4 class="papertitle">Is the Algorithmic Kadison-Singer Problem Hard?</h4>
                                 <p>Ben Jourdan, Peter Macgregor, and He Sun</p>
-                                <a href="http://arxiv.org/abs/2205.02161" class="btn btn-info btn-sm">arXiv
-                                    version</a>
-                                <button class="btn btn-default" onclick="bibtex_click(event.target)">bibtex</button>
                             <pre class="bibtex" style="display:none"><code>@inproceedings{jourdanAlgorithmicKadisonSinger2022,
     author     = {Ben Jourdan and Peter Macgregor and He Sun},
     title      = {Is the Algorithmic Kadison-Singer Problem Hard?},
@@ -148,26 +142,21 @@
     year       = {2023}
 }</code></pre>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <hr style="width: 100%;"/>
-                            </div>
-                        </div>
-                        <div class="row">
                             <div class="col-md-3">
+                                <h4>
+                                <a href="http://arxiv.org/abs/2205.02161" class="label label-info">arXiv</a>
+                                <button class="label label-default" onclick="bibtex_click(event.target)">bibtex</button>
+                                </h4>
+                            </div>
+                                <hr style="width: 100%;"/>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2">
                                 <h4><span class="label label-primary">Tech. Report</span></h4>
                             </div>
-                            <div class="col-md-9">
+                            <div class="col-md-7">
                                 <h4 class="papertitle">Spectral Toolkit of Algorithms for Graphs: Technical Report (1)</h4>
                                 <p>Peter Macgregor and He Sun</p>
-                                <a href="https://arxiv.org/abs/2304.03170" class="btn btn-info btn-sm">arXiv
-                                    version</a>
-                                <a href="files/stag_report_1.pdf"
-                                class="btn btn-primary btn-sm">PDF</a>
-                                <a href="https://github.com/staglibrary/local-clustering-case-study"
-                                   class="btn btn-warning btn-sm">code</a>
-                                <button class="btn btn-default" onclick="bibtex_click(event.target)">bibtex</button>
                             <pre class="bibtex" style="display:none"><code>@article{stag,
     author       = {Peter Macgregor and He Sun},
     title        = {Spectral Toolkit of Algorithms for Graphs: Technical Report {(1)}},
@@ -179,27 +168,25 @@
     eprint       = {2304.03170},
 }</code></pre>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <hr style="width: 100%;"/>
-                            </div>
-                        </div>
-                        <div class="row">
                             <div class="col-md-3">
+                                <h4>
+                                <a href="https://arxiv.org/abs/2304.03170" class="label label-info">arXiv</a>
+                                <a href="files/stag_report_1.pdf"
+                                class="label label-primary">PDF</a>
+                                <a href="https://github.com/staglibrary/local-clustering-case-study"
+                                   class="label label-warning">code</a>
+                                <button class="label label-default" onclick="bibtex_click(event.target)">bibtex</button>
+                                </h4>
+                            </div>
+                                <hr style="width: 100%;"/>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2">
                                 <h4><span class="label label-primary">ICML 2022</span></h4>
                             </div>
-                            <div class="col-md-9">
+                            <div class="col-md-7">
                                 <h4 class="papertitle">A Tighter Analysis of Spectral Clustering, and Beyond</h4>
                                 <p>Peter Macgregor and He Sun</p>
-                                <a href="https://arxiv.org/abs/2208.01724" class="btn btn-info btn-sm">arXiv
-                                    version</a>
-                                <a href="https://proceedings.mlr.press/v162/macgregor22a.html"
-                                   class="btn btn-primary btn-sm">conference version</a>
-                                <a href="https://slideslive.com/38983449" class="btn btn-success btn-sm">talk</a>
-                                <a href="https://github.com/pmacg/spectral-clustering-meta-graphs"
-                                   class="btn btn-warning btn-sm">code</a>
-                                <button class="btn btn-default" onclick="bibtex_click(event.target)">bibtex</button>
                             <pre class="bibtex" style="display:none"><code>@inproceedings{macgregorTighterAnalysisSpectral2022,
     title = {A Tighter Analysis of Spectral Clustering, and Beyond},
     booktitle = {39th {{International Conference}} on {{Machine Learning}} ({{ICML}}'22)},
@@ -208,27 +195,26 @@
     pages = {14717--14742}
 }</code></pre>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <hr style="width: 100%;"/>
+                               <div class="col-md-3">
+                                    <h4>
+                                <a href="https://arxiv.org/abs/2208.01724" class="label label-info">arXiv</a>
+                                <a href="https://proceedings.mlr.press/v162/macgregor22a.html"
+                                   class="label label-primary">conference</a>
+                                <a href="https://slideslive.com/38983449" class="label label-success">talk</a>
+                                <a href="https://github.com/pmacg/spectral-clustering-meta-graphs"
+                                   class="label label-warning">code</a>
+                                <button class="label label-default" onclick="bibtex_click(event.target)">bibtex</button>
+                                    </h4>
                             </div>
+                                <hr style="width: 100%;"/>
                         </div>
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-2">
                                 <h4><span class="label label-primary">NeurIPS 2021</span></h4>
                             </div>
-                            <div class="col-md-9">
+                            <div class="col-md-7">
                                 <h4 class="papertitle">Finding Bipartite Components in Hypergraphs</h4>
                                 <p>Peter Macgregor and He Sun</p>
-                                <a href="https://arxiv.org/abs/2205.02771" class="btn btn-info btn-sm">arXiv
-                                    version</a>
-                                <a href="https://proceedings.neurips.cc/paper/2021/hash/41bacf567aefc61b3076c74d8925128f-Abstract.html"
-                                   class="btn btn-primary btn-sm">conference version</a>
-                                <a href="https://slideslive.com/38968981" class="btn btn-success btn-sm">talk</a>
-                                <a href="https://github.com/pmacg/hypergraph-bipartite-components"
-                                   class="btn btn-warning btn-sm">code</a>
-                                <button class="btn btn-default" onclick="bibtex_click(event.target)">bibtex</button>
                             <pre class="bibtex" style="display:none"><code>@inproceedings{macgregorFindingBipartiteComponents2021,
     title = {Finding Bipartite Components in Hypergraphs},
     booktitle = {34th {{Advances}} in {{Neural Information Processing Systems}} ({{NeurIPS}}'21)},
@@ -237,33 +223,29 @@
     pages = {7912--7923}
 }</code></pre>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <hr style="width: 100%;"/>
-                            </div>
-                        </div>
-                        <div class="row">
                             <div class="col-md-3">
+                                <h4>
+                                <a href="https://arxiv.org/abs/2205.02771" class="label label-info">arXiv</a>
+                                <a href="https://proceedings.neurips.cc/paper/2021/hash/41bacf567aefc61b3076c74d8925128f-Abstract.html"
+                                   class="label label-primary">conference</a>
+                                <a href="https://slideslive.com/38968981" class="label label-success">talk</a>
+                                <a href="https://github.com/pmacg/hypergraph-bipartite-components"
+                                   class="label label-warning">code</a>
+                                <button class="label label-default" onclick="bibtex_click(event.target)">bibtex</button>
+                                </h4>
+                            </div>
+                                <hr style="width: 100%;"/>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2">
                                 <h4>
                                     <span class="label label-primary">ICML 2021</span>
                                     <span class="label label-success">Oral</span>
                                 </h4>
                             </div>
-                            <div class="col-md-9">
+                            <div class="col-md-7">
                                 <h4 class="papertitle">Local Algorithms for Finding Densely Connected Clusters</h4>
                                 <p>Peter Macgregor and He Sun</p>
-                                <a href="https://arxiv.org/abs/2106.05245" class="btn btn-info btn-sm">arXiv
-                                    version</a>
-                                <a href="http://proceedings.mlr.press/v139/macgregor21a.html"
-                                   class="btn btn-primary btn-sm">conference version</a>
-                                <a href="https://slideslive.com/38958689/local-algorithms-for-finding-densely-connected-clusters"
-                                   class="btn btn-success btn-sm">talk</a>
-                                <a href="https://github.com/pmacg/local-densely-connected-clusters"
-                                   class="btn btn-warning btn-sm">code</a>
-                                <a href="https://staglibrary.io/clustering-demo.html"
-                                   class="btn btn-danger btn-sm">demo</a>
-                                <button class="btn btn-default" onclick="bibtex_click(event.target)">bibtex</button>
                             <pre class="bibtex" style="display:none"><code>@inproceedings{macgregorLocalAlgorithmsFinding2021,
   title = {Local Algorithms for Finding Densely Connected Clusters},
   booktitle = {38th {{International Conference}} on {{Machine Learning}} ({{ICML}}'21)},
@@ -272,28 +254,33 @@
   pages = {7268--7278}
 }</code></pre>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <hr style="width: 100%;"/>
+                            <div class="col-md-3">
+                                <h4>
+                                <a href="https://arxiv.org/abs/2106.05245" class="label label-info">arXiv</a>
+                                <a href="http://proceedings.mlr.press/v139/macgregor21a.html"
+                                   class="label label-primary">conference</a>
+                                <a href="https://slideslive.com/38958689/local-algorithms-for-finding-densely-connected-clusters"
+                                   class="label label-success">talk</a>
+                                <a href="https://github.com/pmacg/local-densely-connected-clusters"
+                                   class="label label-warning">code</a>
+                                <a href="https://staglibrary.io/clustering-demo.html"
+                                   class="label label-danger">demo</a>
+                                <button class="label label-default" onclick="bibtex_click(event.target)">bibtex</button>
+                                </h4>
                             </div>
+                                <hr style="width: 100%;"/>
                         </div>
 
                         <h2>Thesis</h2>
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-2">
                                 <h4>
                                 <span class="label label-primary">PhD Thesis</span>
                                 </h4>
                             </div>
-                            <div class="col-md-9">
+                            <div class="col-md-7">
                                 <h4 class="papertitle">On Learning the Structure of Clusters in Graphs</h4>
                                 <p>Peter Macgregor, University of Edinburgh, 2022</p>
-                                <a href="https://arxiv.org/abs/2212.14345" class="btn btn-info btn-sm">arXiv
-                                    version</a>
-                                <a href="https://era.ed.ac.uk/handle/1842/39768"
-                                   class="btn btn-primary btn-sm">Edinburgh University version</a>
-                                <button class="btn btn-default" onclick="bibtex_click(event.target)">bibtex</button>
                             <pre class="bibtex" style="display:none"><code>@phdthesis{macgregorLearningStructureClusters2022,
     title = {On Learning the Structure of Clusters in Graphs},
     author = {Macgregor, Peter},
@@ -301,14 +288,17 @@
     school = {University of Edinburgh}
 }</code></pre>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <hr style="width: 100%;"/>
+                            <div class="col-md-3">
+                                <h4>
+                                <a href="https://arxiv.org/abs/2212.14345" class="label label-info">arXiv</a>
+                                <a href="https://era.ed.ac.uk/handle/1842/39768"
+                                   class="label label-primary">University version</a>
+                                <button class="label label-default" onclick="bibtex_click(event.target)">bibtex</button>
+                                </h4>
                             </div>
                         </div>
 
-                        <h2>Talks</h2>
+                        <!-- <h2>Talks</h2>
                         <div class="row">
                             <div class="col-md-3">
                                 <h4><span class="label label-primary">Edinburgh LFCS 2022</span></h4>
@@ -331,7 +321,7 @@
                             <div class="col-md-9">
                                 <h4 class="papertitle">How to Cluster a Million Data Points While the Kettle Boils</h4>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 </div>

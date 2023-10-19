@@ -4,3 +4,12 @@ a.anchor {
     top: -50px;
     visibility: hidden;
 }
+
+.label {
+    margin-bottom: 0.5em;
+    display: inline-block;
+}
+
+hr {
+    margin-bottom: 10px;
+}
