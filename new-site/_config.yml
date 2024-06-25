@@ -48,6 +48,7 @@ minima:
 
 # These are custom configuration settings that I have added myself.
 custom:
+  name: Peter Macgregor
   profile_picture: /assets/images/profile.jpeg
   job_title: Lecturer
   school: School of Computer Science
