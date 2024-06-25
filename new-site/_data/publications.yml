@@ -1,0 +1,171 @@
+- title: "Spectral Toolkit of Algorithms for Graphs: Technical Report (2)"
+  authors: Peter Macgregor and He Sun
+  venue: Tech. Report
+  official_name: PDF
+  official_url: /assets/files/stag_report_2.pdf
+  code: https://github.com/staglibrary/kde-experiments
+  bibtex: |
+    @techreport{stag_report_2,
+      author       = {Peter Macgregor and He Sun},
+      title        = {Spectral Toolkit of Algorithms for Graphs: Technical Report {(2)}},
+      year         = {2024},
+    }  
+
+- title: Polynomial-Time Algorithms for Weaver's Discrepancy Problem in a Dense Regime
+  authors: Ben Jourdan, Peter Macgregor, and He Sun
+  venue: Preprint
+  arxiv: https://arxiv.org/abs/2402.08545
+  bibtex: |
+    @misc{jourdan2024polynomialtime,
+      title={Polynomial-Time Algorithms for Weaver's Discrepancy Problem in a Dense Regime}, 
+      author={Ben Jourdan and Peter Macgregor and He Sun},
+      year={2024},
+      eprint={2402.08545},
+      archivePrefix={arXiv},
+      primaryClass={cs.DS}
+    }
+
+- title: Fast Approximation of Similarity Graphs with Kernel Density Estimation
+  authors: Peter Macgregor and He Sun
+  venue: NeurIPS 2023
+  highlight: Spotlight
+  arxiv: https://arxiv.org/abs/2310.13870
+  official_name: conference
+  official_url: https://neurips.cc/virtual/2023/poster/72513
+  talk: https://slideslive.com/39009082/fast-approximation-of-similarity-graphs-with-kernel-density-estimation
+  code: https://github.com/pmacg/kde-similarity-graph
+  bibtex: |
+    @inproceedings{macgregorKDESimilarityGraph2023,
+      title = {Fast Approximation of Similarity Graphs with Kernel Density Estimation},
+      booktitle = {36th {{Advances}} in {{Neural Information Processing Systems}} ({{NeurIPS}}'23)},
+      author = {Peter Macgregor and He Sun},
+      year = {2023}
+    }
+
+- title: Fast and Simple Spectral Clustering in Theory and Practice
+  authors: Peter Macgregor
+  venue: NeurIPS 2023
+  arxiv: http://arxiv.org/abs/2310.10939
+  official_name: conference
+  official_url: https://neurips.cc/virtual/2023/poster/71723
+  talk: https://slideslive.com/39009083/fast-and-simple-spectral-clustering-in-theory-and-practice
+  code: https://github.com/pmacg/fast-spectral-clustering
+  bibtex: |
+    @inproceedings{macgregorFastSpectralClustering2023,
+      title = {Fast and Simple Spectral Clustering in Theory and Practice},
+      booktitle = {36th {{Advances}} in {{Neural Information Processing Systems}} ({{NeurIPS}}'23)},
+      author = {Macgregor, Peter},
+      year = {2023}
+    }
+
+- title: Is the Algorithmic Kadison-Singer Problem Hard?
+  authors: Ben Jourdan, Peter Macgregor, and He Sun
+  venue: ISAAC 2023
+  arxiv: http://arxiv.org/abs/2205.02161
+  official_name: conference
+  official_url: https://doi.org/10.4230/LIPIcs.ISAAC.2023.43
+  bibtex: |
+    @InProceedings{jourdan_et_al:LIPIcs.ISAAC.2023.43,
+      author =	{Jourdan, Ben and Macgregor, Peter and Sun, He},
+      title =	{{Is the Algorithmic Kadison-Singer Problem Hard?}},
+      booktitle =	{34th International Symposium on Algorithms and Computation (ISAAC 2023)},
+      pages =	{43:1--43:18},
+      series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+      ISBN =	{978-3-95977-289-1},
+      ISSN =	{1868-8969},
+      year =	{2023},
+      volume =	{283},
+      editor =	{Iwata, Satoru and Kakimura, Naonori},
+      publisher =	{Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
+      address =	{Dagstuhl, Germany},
+      URL =		{https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ISAAC.2023.43},
+      URN =		{urn:nbn:de:0030-drops-193457},
+      doi =		{10.4230/LIPIcs.ISAAC.2023.43},
+      annote =	{Keywords: Kadison-Singer problem, spectral sparsification}
+    }
+
+- title: "Spectral Toolkit of Algorithms for Graphs: Technical Report (1)"
+  authors: Peter Macgregor and He Sun
+  venue: Tech. Report
+  arxiv: https://arxiv.org/abs/2304.03170
+  official_name: PDF
+  official_url: /assets/files/stag_report_1.pdf
+  code: https://github.com/staglibrary/local-clustering-case-study
+  bibtex: |
+    @article{stag_report_1,
+      author       = {Peter Macgregor and He Sun},
+      title        = {Spectral Toolkit of Algorithms for Graphs: Technical Report {(1)}},
+      journal      = {CoRR},
+      volume       = {abs/2304.03170},
+      year         = {2023},
+      doi          = {10.48550/arXiv.2304.03170},
+      eprinttype    = {arXiv},
+      eprint       = {2304.03170},
+    }  
+
+- title: A Tighter Analysis of Spectral Clustering, and Beyond
+  authors: Peter Macgregor and He Sun
+  venue: ICML 2022
+  arxiv: https://arxiv.org/abs/2208.01724
+  official_name: conference
+  official_url: https://proceedings.mlr.press/v162/macgregor22a.html
+  talk: https://slideslive.com/38983449
+  code: https://github.com/pmacg/spectral-clustering-meta-graphs
+  bibtex: |
+    @inproceedings{macgregorTighterAnalysisSpectral2022,
+      title = {A Tighter Analysis of Spectral Clustering, and Beyond},
+      booktitle = {39th {{International Conference}} on {{Machine Learning}} ({{ICML}}'22)},
+      author = {Macgregor, Peter and Sun, He},
+      year = {2022},
+      pages = {14717--14742}
+    }
+
+- title: Finding Bipartite Components in Hypergraphs
+  authors: Peter Macgregor and He Sun
+  venue: NeurIPS 2021
+  arxiv: https://arxiv.org/abs/2205.02771
+  official_name: conference
+  official_url: https://proceedings.neurips.cc/paper/2021/hash/41bacf567aefc61b3076c74d8925128f-Abstract.html
+  talk: https://slideslive.com/38968981
+  code: https://github.com/pmacg/hypergraph-bipartite-components
+  bibtex: |
+    @inproceedings{macgregorFindingBipartiteComponents2021,
+      title = {Finding Bipartite Components in Hypergraphs},
+      booktitle = {34th {{Advances}} in {{Neural Information Processing Systems}} ({{NeurIPS}}'21)},
+      author = {Macgregor, Peter and Sun, He},
+      year = {2021},
+      pages = {7912--7923}
+    }
+
+- title: Local Algorithms for Finding Densely Connected Clusters
+  authors: Peter Macgregor and He Sun
+  venue: ICML 2021
+  highlight: Oral
+  arxiv: https://arxiv.org/abs/2106.05245
+  official_name: conference
+  official_url: http://proceedings.mlr.press/v139/macgregor21a.html
+  talk: https://slideslive.com/38958689/local-algorithms-for-finding-densely-connected-clusters
+  code: https://github.com/pmacg/local-densely-connected-clusters
+  demo: https://staglibrary.io/clustering-demo.html
+  bibtex: |
+    @inproceedings{macgregorLocalAlgorithmsFinding2021,
+      title = {Local Algorithms for Finding Densely Connected Clusters},
+      booktitle = {38th {{International Conference}} on {{Machine Learning}} ({{ICML}}'21)},
+      author = {Macgregor, Peter and Sun, He},
+      year = {2021},
+      pages = {7268--7278}
+    }
+
+- title: On Learning the Structure of Clusters in Graphs
+  authors: Peter Macgregor, University of Edinburgh, 2022
+  venue: PhD Thesis
+  arxiv: https://arxiv.org/abs/2212.14345
+  official_name: University version
+  official_url: https://era.ed.ac.uk/handle/1842/39768
+  bibtex: |
+    @phdthesis{macgregorLearningStructureClusters2022,
+      title = {On Learning the Structure of Clusters in Graphs},
+      author = {Macgregor, Peter},
+      year = {2022},
+      school = {University of Edinburgh}
+    }

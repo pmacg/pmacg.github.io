@@ -54,6 +54,7 @@ custom:
   institution: University of St Andrews
   google_scholar: https://scholar.google.co.uk/citations?user=t72xITMAAAAJ
   dblp: https://dblp.uni-trier.de/pid/294/8868.html
+  list_publications: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
