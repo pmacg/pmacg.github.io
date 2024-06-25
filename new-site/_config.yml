@@ -38,7 +38,8 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - about.markdown
+  - index.md
+  - about.md
 
 # There are some other minima-specific things not listed here. Possibly
 # worth checking the minima theme source code for inspiration.
