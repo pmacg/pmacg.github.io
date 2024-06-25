@@ -37,6 +37,23 @@ theme: minima
 plugins:
   - jekyll-feed
 
+header_pages:
+  - about.markdown
+
+# There are some other minima-specific things not listed here. Possibly
+# worth checking the minima theme source code for inspiration.
+minima:
+  skin: solarized
+
+# These are custom configuration settings that I have added myself.
+custom:
+  profile_picture: /assets/images/profile.jpeg
+  job_title: Lecturer
+  school: School of Computer Science
+  institution: University of St Andrews
+  google_scholar: https://scholar.google.co.uk/citations?user=t72xITMAAAAJ
+  dblp: https://dblp.uni-trier.de/pid/294/8868.html
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

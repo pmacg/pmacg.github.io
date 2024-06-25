@@ -1,0 +1,28 @@
+<div class="col-md-3">
+    <h3></h3>
+    <div class="text-center">
+        <img src="{{ site.custom.profile_picture }}" class="img-circle" style="max-width:150px; width:100%" alt="Profile picture.">
+    </div>
+    <h3>{{ site.title }}</h3>
+    <p>{{ site.custom.job_title }}<br>
+       {{ site.custom.school }}<br>
+       {{ site.custom.institution }}</p>
+    <div class="">
+        <a class="social-icon" data-tooltip="{{ site.email }}" href="mailto:{{ site.email }}">
+            <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+        </a>
+        <span>&nbsp;</span>
+        <a class="social-icon" data-tooltip="GitHub" href="https://github.com/{{ site.github_username }}">
+            <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+        </a>
+        <span>&nbsp;</span>
+        <a class="social-icon" data-tooltip="Google Scholar"
+            href="{{ site.custom.google_scholar }}">
+            <i class="ai ai-google-scholar ai-2x" aria-hidden="true"></i>
+        </a>
+        <span>&nbsp;</span>
+        <a class="social-icon" data-tooltip="DBLP" href="{{ site.custom.dblp }}">
+            <i class="ai ai-dblp ai-2x" aria-hidden="true"></i>
+        </a>
+    </div>
+</div>
