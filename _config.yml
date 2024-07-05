@@ -56,6 +56,7 @@ custom:
   google_scholar: https://scholar.google.co.uk/citations?user=t72xITMAAAAJ
   dblp: https://dblp.uni-trier.de/pid/294/8868.html
   list_publications: true
+  site_logo: /assets/images/lightblue_tree.png
 
 # Exclude from processing.
 # The following items will not be processed, by default.
