@@ -21,3 +21,35 @@ hr {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+body {
+    font-size: 12pt;
+}
+
+h4 {
+    font-size: 15pt;
+}
+
+.cards {
+    border: solid;
+    border-color: #839496;
+    border-width: 2px;
+}
+
+.card-title {
+    color: white;
+    padding: 4px;
+    text-align: center;
+}
+
+.col1 {
+    background-color: #2aa198;
+}
+
+.col2 {
+    background-color: #268bd2;
+}
+
+.col3 {
+    background-color: #859900;
+}

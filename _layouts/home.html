@@ -6,57 +6,6 @@ layout: base
 
   {{ content }}
 
-  {% if site.custom.list_publications %}
-    <h1 id="publications">Publications</h1>
-
-    {% for pub in site.data.publications %}
-      <div class="row">
-        <div class="col-md-2">
-          <h4>
-            <span class="label label-primary">{{ pub.venue }}</span>
-            {% if pub.highlight %}
-              <span class="label label-success">{{ pub.highlight }}</span>
-            {% endif %}
-          </h4>
-        </div>
-        <div class="col-md-7">
-          <h4 class="papertitle">{{ pub.title }}</h4>
-          <p>{{ pub.authors }}</p>
-          {% if pub.bibtex %}
-            <pre class="bibtex" style="display:none"><code>{{ pub.bibtex }}</code></pre>
-          {% endif %}
-        </div>
-        <div class="col-md-3">
-          <h4>
-            {% if pub.arxiv %}
-              <a href="{{ pub.arxiv }}" class="label label-info">arXiv</a>
-            {% endif %}
-            {% if pub.official_name %}
-              <a href="{{ pub.official_url }}"
-                class="label label-primary">{{ pub.official_name }}</a>
-            {% endif %}
-            {% if pub.talk %}
-              <a href="{{ pub.talk }}"
-                class="label label-success">talk</a>
-            {% endif %}
-            {% if pub.code %}
-              <a href="{{ pub.code }}"
-                class="label label-warning">code</a>
-            {% endif %}
-            {% if pub.demo %}
-              <a href="{{ pub.demo }}"
-                class="label label-danger">demo</a>
-            {% endif %}
-            {% if pub.bibtex %}
-              <button class="label label-default" onclick="bibtex_click(event.target)">bibtex</button>
-            {% endif %}
-          </h4>
-        </div>
-        <hr style="width: 100%;"/>
-      </div>
-    {% endfor %}
-  {% endif %}
-
   <!-- Javascript to operate buttons -->
   <script src="/assets/js/buttons.js"></script>
 
