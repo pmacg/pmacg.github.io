@@ -3,12 +3,18 @@
   venue: Tech. Report
   official_name: PDF
   official_url: /assets/files/stag_report_2.pdf
+  arxiv: https://arxiv.org/abs/2407.07096
   code: https://github.com/staglibrary/kde-experiments
   bibtex: |
-    @techreport{stag_report_2,
+    @article{stag_report_2,
       author       = {Peter Macgregor and He Sun},
       title        = {Spectral Toolkit of Algorithms for Graphs: Technical Report {(2)}},
+      journal      = {CoRR},
+      volume       = {abs/2407.07096},
       year         = {2024},
+      doi          = {10.48550/arXiv.2407.07096},
+      eprinttype    = {arXiv},
+      eprint       = {2407.07096},
     }  
 
 - title: Polynomial-Time Algorithms for Weaver's Discrepancy Problem in a Dense Regime
