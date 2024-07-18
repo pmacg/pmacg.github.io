@@ -40,6 +40,7 @@ plugins:
 header_pages:
   - index.md
   - software.md
+  - blog.md
 
 # There are some other minima-specific things not listed here. Possibly
 # worth checking the minima theme source code for inspiration.
