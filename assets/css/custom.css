@@ -33,12 +33,14 @@ h4 {
 .cards {
     border: solid;
     border-color: #839496;
-    border-width: 2px;
+    border-width: 0.2em;
+    margin: 0.2em;
+    margin-bottom: 0.5em;
 }
 
 .card-title {
     color: white;
-    padding: 4px;
+    padding: 0.2em;
     text-align: center;
 }
 
@@ -52,4 +54,19 @@ h4 {
 
 .col3 {
     background-color: #859900;
+}
+
+.col4 {
+    background-color: #d08d2e;
+}
+
+.big-button {
+    font-size: 20px;
+    white-space: wrap;
+    margin-top: 2em;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
 }
