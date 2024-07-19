@@ -13,4 +13,14 @@ theoretically sound algorithms which work well in practice.
 
 Previously I was a PhD student and postdoctoral researcher at the University of Edinburgh working with He Sun, and I spent a semester at the Simons Institute for the Theory of Computing at UC Berkeley.
 
-I am developing the STAG open-source library of efficient spectral graph algorithms along with He Sun.
+Please see my [research](/research/) page to learn more about what I work on.
+
+## Contact
+Please feel free to get in touch at `prm4<at>st-andrews.ac.uk`.
+
+Alternatively, you can also find me in the real world.
+
+    0.21a Jack Cole Building
+    π Potato Ave.
+    St Andrews, UK
+    KY16 9SX
