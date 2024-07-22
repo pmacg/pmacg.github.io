@@ -87,3 +87,8 @@ h4 {
     max-width: 10em;
     width: 90%;
 }
+
+.page-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
