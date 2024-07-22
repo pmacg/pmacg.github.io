@@ -69,4 +69,21 @@ h4 {
 .vertical-align {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.card-image {
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+}
+
+.card-main {
+    text-align: left;
+}
+
+.card-image img {
+    max-width: 10em;
+    width: 90%;
 }

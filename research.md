@@ -35,7 +35,7 @@ At the moment, my focus is on improving algorithms for clustering, similarity se
 
 <div class="row cards vertical-align">
     <div class="col-md-3 card-image">
-        <img src="/assets/images/sc2.png" style="width: 100%"/>
+        <img src="/assets/images/sc2.png"/>
         <a href="https://github.com/pmacg/fast-spectral-clustering" class="label label-success big-button">Fast Spectral Clustering Code</a>
     </div>
     <div class="col-md-9 card-main">
@@ -51,7 +51,7 @@ At the moment, my focus is on improving algorithms for clustering, similarity se
 
 <div class="row cards vertical-align">
     <div class="col-md-3 card-image">
-        <img src="/assets/images/staglogo.png" style="width: 100%"/>
+        <img src="/assets/images/staglogo.png"/>
         <a href="https://staglibrary.io/" class="label label-success big-button">STAG Library Website</a>
     </div>
     <div class="col-md-9 card-main">
