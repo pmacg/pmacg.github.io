@@ -16,7 +16,7 @@ Previously I was a PhD student and postdoctoral researcher at the University of 
 Please see my [research](/research/) page to learn more about what I work on.
 
 ## Contact
-Please feel free to get in touch at `prm4<at>st-andrews.ac.uk`.
+Please feel free to get in touch at `prm4@st-andrews.ac.uk`.
 
 Alternatively, you can also find me in the real world.
 
