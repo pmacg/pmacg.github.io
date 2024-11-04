@@ -7,28 +7,6 @@ permalink: /research/
 # Research
 
 My overall research goal is **to develop fast, effective, theoretically-grounded algorithms to power data science applications**.
-This goal roughly divides into four highly-interconnected strands.
-
-<div class="row cards" markdown="0">
-    <div class="col-md-3 card">
-        <h3 class="card-title col1">Design</h3>
-        <p class="card-text">Design new algorithmic techniques for processing and understanding data.</p>
-    </div>
-    <div class="col-md-3 card">
-        <h3 class="card-title col2">Analysis</h3>
-        <p class="card-text">Prove the effectiveness of algorithms through formal analysis.</p>
-    </div>
-    <div class="col-md-3 card">
-        <h3 class="card-title col3">Implementation</h3>
-        <p class="card-text">Provide high-quality open-source implementations of state-of-the-art data science algorithms.</p>
-    </div>
-    <div class="col-md-3 card">
-        <h3 class="card-title col4">Experimentation</h3>
-        <p class="card-text">Empirically evaluate and compare the performance of algorithms on real-world data.</p>
-    </div>
-</div>
-
-Most research projects involve all of these strands with varying emphasis, and every strand is an important part of designing and building the next generation of algorithms.
 At the moment, my focus is on improving algorithms for clustering, similarity search, and numerical linear algebra.
 
 ## Highlighted Projects
