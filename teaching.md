@@ -13,4 +13,5 @@ In the 2024/25 academic year, I am teaching the following modules.
 
 * [CS3050: Logic and Reasoning](https://info.cs.st-andrews.ac.uk/student-handbook/modules/CS3050.html)
 * [ID5059: Knowledge Discovery and Datamining](https://info.cs.st-andrews.ac.uk/student-handbook/modules/ID5059.html)
+* [CS5959: End-to-End Machine Learning](https://www.st-andrews.ac.uk/subjects/modules/catalogue/?code=CS5959&academic_year=2024%2F5)
 
