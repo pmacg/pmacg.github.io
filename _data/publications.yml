@@ -1,6 +1,9 @@
 - title: "Coreset Spectral Clustering"
   authors: Ben Jourdan, Gregory Schwartzman, Peter Macgregor, and He Sun 
   venue: ICLR 2025
+  official_name: conference
+  official_url: https://openreview.net/forum?id=1qgZXeMTTU
+
 
 - title: "Dynamic DBSCAN with Euler Tour Sequences"
   authors: Seiyun Shin, Ilan Shomorony, and Peter Macgregor
