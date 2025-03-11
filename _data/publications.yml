@@ -3,11 +3,28 @@
   venue: ICLR 2025
   official_name: conference
   official_url: https://openreview.net/forum?id=1qgZXeMTTU
+  arxiv: https://arxiv.org/abs/2503.07227
+  code: https://github.com/BenJourdan/coreset-sc
+  bibtex: |
+    @inproceedings{jourdan2025coreset,
+      title = {{Coreset Spectral Clustering}},
+      booktitle = {13th {{International Conference on Learning Representations}} ({{ICLR}}'25)},
+      author = {Ben Jourdan and Gregory Schwartzman and Peter Macgregor and He Sun},
+      year = {2025}
+    }
 
 
 - title: "Dynamic DBSCAN with Euler Tour Sequences"
   authors: Seiyun Shin, Ilan Shomorony, and Peter Macgregor
   venue: AISTATS 2025
+  bibtex: |
+    @inproceedings{shin2025dynamic,
+      title = {Dynamic DBSCAN with Euler Tour Sequences},
+      booktitle = {28th {{International Conference on Artificial Intelligence and Statistics}} ({{AISTATS}}'25)},
+      author = {Seiyun Shin and Ilan Shomorony and Peter Macgregor},
+      year = {2025}
+    }
+    
 
 - title: "Spectral Toolkit of Algorithms for Graphs: Technical Report (2)"
   authors: Peter Macgregor and He Sun
