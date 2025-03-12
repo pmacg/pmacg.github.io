@@ -17,6 +17,8 @@
 - title: "Dynamic DBSCAN with Euler Tour Sequences"
   authors: Seiyun Shin, Ilan Shomorony, and Peter Macgregor
   venue: AISTATS 2025
+  arxiv: https://arxiv.org/abs/2503.08246
+  code: https://github.com/seiyun-shin/dynamic_dbscan
   bibtex: |
     @inproceedings{shin2025dynamic,
       title = {Dynamic DBSCAN with Euler Tour Sequences},
