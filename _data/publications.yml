@@ -1,3 +1,14 @@
+- title: "Dynamic Similarity Graph Construction with Kernel Density Estimation"
+  authors: Steinar Laenen, Peter Macgregor, and He Sun 
+  venue: ICML 2025
+  bibtex: |
+    @inproceedings{laenen2025dynamic,
+      title = {{Dynamic Similarity Graph Construction with Kernel Density Estimation}},
+      booktitle = {42nd {{International Conference on Machine Learning}} ({{ICML}}'25)},
+      author = {Steinar Laenen and Peter Macgregor and He Sun},
+      year = {2025}
+    }
+
 - title: "Coreset Spectral Clustering"
   authors: Ben Jourdan, Gregory Schwartzman, Peter Macgregor, and He Sun 
   venue: ICLR 2025
