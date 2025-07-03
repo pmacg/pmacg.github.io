@@ -1,6 +1,8 @@
 - title: "Dynamic Similarity Graph Construction with Kernel Density Estimation"
   authors: Steinar Laenen, Peter Macgregor, and He Sun 
   venue: ICML 2025
+  arxiv: https://arxiv.org/abs/2507.01696
+  code: https://github.com/SteinarLaenen/Dynamic-Similarity-Graph-Construction-with-Kernel-Density-Estimation
   bibtex: |
     @inproceedings{laenen2025dynamic,
       title = {{Dynamic Similarity Graph Construction with Kernel Density Estimation}},
