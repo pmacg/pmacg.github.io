@@ -1,3 +1,6 @@
+- title: "Dynamic Kernel Density Estimation"
+  authors: Ben Jourdan, Peter Macgregor, Gregory Schwartzman
+  venue: ICML 2026
 - title: "Dynamic Similarity Graph Construction with Kernel Density Estimation"
   authors: Steinar Laenen, Peter Macgregor, and He Sun 
   venue: ICML 2025
