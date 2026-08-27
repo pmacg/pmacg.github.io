@@ -34,3 +34,8 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # Fix liquid bug with latest ruby version
 gem 'liquid', '~> 4.0', '>= 4.0.4'
+
+gem 'csv'
+gem 'base64'
+gem 'bigdecimal'
+
