@@ -17,6 +17,8 @@
   venue: ICML 2025
   arxiv: https://arxiv.org/abs/2507.01696
   code: https://github.com/SteinarLaenen/Dynamic-Similarity-Graph-Construction-with-Kernel-Density-Estimation
+  official_name: conference
+  official_url: https://icml.cc/virtual/2025/poster/43809
   bibtex: |
     @inproceedings{laenen2025dynamic,
       title = {{Dynamic Similarity Graph Construction with Kernel Density Estimation}},
