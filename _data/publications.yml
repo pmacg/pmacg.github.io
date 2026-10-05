@@ -1,6 +1,17 @@
 - title: "Fully Dynamic Coreset Spectral Clustering"
   authors: Ben Jourdan, Peter Macgregor, Gregory Schwartzman
   venue: ICML 2026
+  official_name: conference
+  official_url: https://icml.cc/virtual/2026/poster/63345
+  code: https://github.com/BenJourdan/raven
+  bibtex: |
+    @inproceedings{jourdan2026fully,
+      title = {{Fully Dynamic Coreset Spectral Clustering}},
+      booktitle = {43rd {{International Conference on Machine Learning}} ({{ICML}}'26)},
+      author = {Ben Jourdan and Peter Macgregor and Gregory Schwartzman},
+      year = {2026}
+    }
+
 - title: "Dynamic Similarity Graph Construction with Kernel Density Estimation"
   authors: Steinar Laenen, Peter Macgregor, and He Sun 
   venue: ICML 2025
